@@ -1,0 +1,38 @@
+.createTask input {
+  width: 80%;
+  text-decoration: none;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.createTask button {
+    width: 20%;
+    padding: .7rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 0 5px 0 5px;
+} 
+.createTask {
+    margin: 2rem 0;
+}
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.completed, .pending{
+    background-color: var(--white);
+    padding: .5rem;
+    width: 45%;
+}
+
+.completed {
+    color: var(--secondary);
+}
+
+.pending {
+    color: var(--primary);
+}
