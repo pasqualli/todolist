@@ -23,29 +23,23 @@ export const List = ({ todos, deleteTodo, completeTodo }: IProps) => {
           <div className={styles.card} key={index}>
             <input type="text" value={todo.description} />
             <div className={styles.icon}>
-              <span>
                 <FontAwesomeIcon
                   icon={faCheck}
                   color="#660096"
                   size="1x"
                   onClick={() => completeTodo(todo.id)}
                 />
-              </span>
-              <span>
                 <FontAwesomeIcon
                   icon={faPenToSquare}
                   color="#660096"
                   size="1x"
                 />
-              </span>
-              <span>
                 <FontAwesomeIcon
                   icon={faTrash}
                   color="#660096"
                   size="1x"
                   onClick={() => deleteTodo(todo.id)}
                 />
-              </span>
             </div>
           </div>
         );
