@@ -13,3 +13,6 @@
 .card input {
     border: none;
 }
+.inputCompleted {
+    text-decoration: line-through;
+}
